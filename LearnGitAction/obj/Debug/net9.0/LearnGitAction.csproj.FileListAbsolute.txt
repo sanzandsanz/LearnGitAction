@@ -12,3 +12,4 @@ C:\sanz-github\LearnGitAction\LearnGitAction\obj\Debug\net9.0\refint\LearnGitAct
 C:\sanz-github\LearnGitAction\LearnGitAction\obj\Debug\net9.0\LearnGitAction.pdb
 C:\sanz-github\LearnGitAction\LearnGitAction\obj\Debug\net9.0\LearnGitAction.genruntimeconfig.cache
 C:\sanz-github\LearnGitAction\LearnGitAction\obj\Debug\net9.0\ref\LearnGitAction.dll
+C:\sanz-github\LearnGitAction\LearnGitAction\obj\Debug\net9.0\LearnGitAction.sourcelink.json
