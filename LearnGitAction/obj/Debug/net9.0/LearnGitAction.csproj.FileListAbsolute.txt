@@ -1,0 +1,14 @@
+C:\sanz-github\LearnGitAction\LearnGitAction\bin\Debug\net9.0\LearnGitAction.exe
+C:\sanz-github\LearnGitAction\LearnGitAction\bin\Debug\net9.0\LearnGitAction.deps.json
+C:\sanz-github\LearnGitAction\LearnGitAction\bin\Debug\net9.0\LearnGitAction.runtimeconfig.json
+C:\sanz-github\LearnGitAction\LearnGitAction\bin\Debug\net9.0\LearnGitAction.dll
+C:\sanz-github\LearnGitAction\LearnGitAction\bin\Debug\net9.0\LearnGitAction.pdb
+C:\sanz-github\LearnGitAction\LearnGitAction\obj\Debug\net9.0\LearnGitAction.GeneratedMSBuildEditorConfig.editorconfig
+C:\sanz-github\LearnGitAction\LearnGitAction\obj\Debug\net9.0\LearnGitAction.AssemblyInfoInputs.cache
+C:\sanz-github\LearnGitAction\LearnGitAction\obj\Debug\net9.0\LearnGitAction.AssemblyInfo.cs
+C:\sanz-github\LearnGitAction\LearnGitAction\obj\Debug\net9.0\LearnGitAction.csproj.CoreCompileInputs.cache
+C:\sanz-github\LearnGitAction\LearnGitAction\obj\Debug\net9.0\LearnGitAction.dll
+C:\sanz-github\LearnGitAction\LearnGitAction\obj\Debug\net9.0\refint\LearnGitAction.dll
+C:\sanz-github\LearnGitAction\LearnGitAction\obj\Debug\net9.0\LearnGitAction.pdb
+C:\sanz-github\LearnGitAction\LearnGitAction\obj\Debug\net9.0\LearnGitAction.genruntimeconfig.cache
+C:\sanz-github\LearnGitAction\LearnGitAction\obj\Debug\net9.0\ref\LearnGitAction.dll
