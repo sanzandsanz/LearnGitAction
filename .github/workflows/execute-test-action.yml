@@ -1,7 +1,7 @@
 name: Execute-Test-Action.yml
 on: push
 jobs:
-  test:
+  execute-program:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
