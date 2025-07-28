@@ -14,15 +14,15 @@ jobs:
 
       - name: Restore dependencies # Restore nuget packages or dependencies
         run: dotnet restore
-      
+        
+      - name: Build project
+        run: dotnet build --configuration Debug
+
       - name: Execute Unit Tests
         run: |
           cd "/home/runner/work/LearnGitAction/LearnGitAction/LearnGitAction.Tests"
           dotnet test --no-build --verbosity normal
-
+          
       - name: Print completion message # Print Success message if test runs successfully 
         if: success()
         run: echo "All tests executed successfully!"
-
-      
-    
