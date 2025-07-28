@@ -1,4 +1,4 @@
-name: Execute-Test-Action.yml
+name: Execute-Program-Action.yml
 on: push
 jobs:
   execute-program:
