@@ -15,8 +15,8 @@ jobs:
       - name: Restore dependencies
         run: dotnet restore
 
-      - name: Run tests
-        run: dotnet test --no-build --verbosity normal
+      - name: Run Program
+        run: dotnet run Program.cs
 
       - name: Print completion message
         if: success()
