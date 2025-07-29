@@ -1,0 +1,14 @@
+name: pull_request_open.yml
+on:
+  pull_request: 
+    types:
+        - opened #Trigger when the pull request is opened
+        - closed #Trigger when the pull request is closed
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: List files  # List files in the current directory
+        run: ls -la
+
+     
