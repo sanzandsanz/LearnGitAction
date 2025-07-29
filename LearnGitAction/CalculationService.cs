@@ -28,4 +28,9 @@ public static class CalculationService
         }
         return (double)a / b;
     }
+    
+    public static int Modulus(int a, int b)
+    {
+        return a % b;
+    }
 }
