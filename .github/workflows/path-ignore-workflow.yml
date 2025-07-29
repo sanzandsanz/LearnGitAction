@@ -1,0 +1,22 @@
+# This workflow runs only if changes are push to main or develop branches (Consider you are these branches in origin)
+name: path-ignore-workflow.yml 
+on:
+    push:
+        branches:
+        - main
+        - develop
+        paths-ignore: # Ignore changes in these paths
+        - 'docs/**' # Ignore changes in the docs directory
+        - 'tests/**' # Ignore changes in the tests directory
+        - '.github/workflows/**' # Ignore changes in the workflows directory
+    workflow_dispatch: # Make this workflow manually triggerable from the GitHub UI
+jobs:
+  sample-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code # Code Checkout from Github Repository
+        uses: actions/checkout@v4
+
+      - name: Print message # Print a message to indicate the workflow is running
+        run: echo "This workflow runs only if changes are pushed to main or develop branches, excluding specified paths."
+        
