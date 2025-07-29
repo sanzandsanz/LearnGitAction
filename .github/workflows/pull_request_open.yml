@@ -1,9 +1,13 @@
+# This workflow triggers on pull request events
+# It will run the job when the pull request is opened or closed
+
 name: pull_request_open.yml
 on:
   pull_request: 
     types:
         - opened #Trigger when the pull request is opened
-        - closed #Trigger when the pull request is closed
+        - closed #Trigger when the pull request is closed OR Running your pull_request workflow when a pull request merges (once PR is merged, it will be closed)
+  workflow_dispatch: # Make this workflow manually triggerable from the GitHub UI
 jobs:
   test:
     runs-on: ubuntu-latest
